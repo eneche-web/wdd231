@@ -1,0 +1,13 @@
+@media screen and (min-width: 1000px){
+    .course-container{
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    main{
+        padding: 1.5rem;
+    }
+
+    section{
+        padding: 1.5rem;
+    }
+}

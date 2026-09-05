@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="WDD231 course home page showing web and computer programming courses and projects.">
+        <meta name="author" content="Eneche John">
+        <title>WDD231 | Home</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/small.css">
+        <link rel="stylesheet" href="styles/larger.css">
+        <script src="scripts/navigation.js" defer></script>
+        <script src="scripts/date.js" defer></script>
+        <script src="scripts/courses.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <div class="header-content">
+                <div class="profile">
+                    <img src="images/logo.png" alt="Site logo" width="60" height="60"><span>Eneche John</span>
+                </div>
+                <button id="menu-button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="primary-navigation">≡</button>
+            </div>
+            <nav id="primary-navigation" class="navigation">
+                <a href="index.html" class="active">Home</a>
+                <a href="#" aria-label="Chamber of Commerce project">Chember</a>
+                <a href="#" aria-label="Final project">Final project</a>
+            </nav>
+        </header>
+        <main>
+            <h1>Home</h1>
+            <div class="home-grid">
+                <section class="about">
+                    <h2>About Me</h2>
+                    <p>
+                        Great to have you on my WDD231 home page.
+                        This website is positioned to demonstrate my inclination to the learning and development in web and computer programing.
+                        I am with all dexterity developing my skills in programming,databases,HTML,CSS,JavaScripts and software development.
+                    </p>
+                </section>
+                <section class="photo">
+                    <h2>Student Photo</h2>
+                    <img src="images/profile.jpg" alt="Student profile photograph" loading="lazy">
+                </section>
+                <section class="certificate">
+                    <h2>Web and Computer Programming Certificate</h2>
+                    <div class="course-buttons">
+                        <button id="all-courses" class="filter-button active">All Courses</button>
+                        <button id="wdd-courses" class="filter-button">WDD Courses</button>
+                        <button id="cse-courses" class="filter-button">CSE Courses</button>
+                    </div>
+                    <p class="credits">Total Credit: <span id="total-credits">0</span></p>
+                    <div id="course-container" class="course-container">
+                        <!--the courses are inserted here via JavaScript-->
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <div class="social-links">
+                <a href="https://github.com/Eneche-web" target="_blank" rel="noopener noreferer" aria-label="GitHub">GitHub</a>
+                <a href="https://www.linkedin.com/in/Eneche-john/" target="_blank" rel="noopener npreferer" aria-label="Linkedin">Linkedin</a>
+                <a href="#" target="_blank" rel="noopener noreferer" aria-label="Facebook">Facebook</a>
+            </div>
+            <div class="copyright">
+                <p>
+                    &copy;
+                    <span id="currentyear"></span> Eneche John
+                </p>
+                <p>Nigeria</p>
+            </div>
+            <p id="lastModified"></p>
+        </footer>
+    </body>
+</html>
