@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scal=1.0">
+        <title>Abuja Municipal Area Council Business Chamber</title>
+        <meta name="description" content="Discover businesses and chember members in the  Abuja Municipal Arrea Council, Federal Capital Territory, Nigeria.">
+        <meta name="autor" content="Eneche John">
+        <meta property="og:title" content="Abuja Municipal Area Council Business Chamber | Directory ">
+        <meta property="og:description" content="Discover businesses and Chamber members in the Abuja Municipal Area Council, Federal Capital Terrotory, Nigeria.">
+        <meta property="og:image" content="images/logo.svg">
+        <meta property="og:url" content="https://eneche-web.github.io/wdd231/chamber/directory.html">
+        <meta property="og:type" content="website">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+San:wght@400;500;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/small.css">
+        <link rel="stylesheet" href="styles/larger.css">
+        <scripts src="scripts/directory.js" defer></scripts>
+    </head>
+    <body>
+        <header class="site-header">
+            <div class="header-container">
+                <a class="brand" href="index.html" aria-label="Abuja Municipal Area Council Business Chember home">
+                    <img src="images/logo.svg" alt="Abuja Municipal Area Council Business Chamber logo" width="70"
+                    height="70">
+                    <div class="brand-text">
+                        <span class="brand-nam">Abuja Munucipal Area Council Business Chamber</span>
+                        <span class="brand-location">Abuja Municipal Area Council, FCT</span>
+                    </div>
+                </a>
+                <button id="menu" class="menu-button" type="button" aria-label="Open navigation menu" aria-expanded="false">≡</button>
+                <nav class="navigation" aria-label="Main navigation">
+                    <a href="index.html">Events</a>
+                    <a href="about.html">About</a>
+                    <a href="join.html">Join</a>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section class="directory-intro">
+                <h1>Business Directory</h1>
+                <p>Discover organization and businesses serving the Abuja Municipal Area Council community </p>
+            </section>
+            <sectoin class="directory-section" aria-labelledby="directory-heading">
+                <div class="directory-heading">
+                    <div>
+                        <h2 id="directory-heading">AMAC Chamber Members</h2>
+                        <p>
+                            Browse Chember member businesses to learn more and gain insight about the products and services they provide.
+                        </p>
+                    </div>
+                    <div class="view-controls" aria-label="Directory view options">
+                        <button id="grid" class="view-button active" type="button" aria-label="Display all businesses in grid view" aria-pressed="true">Grid</button>
+                        <button id="list" class="view-button" type="button" aria-label="Display all businesses in list view" aria-pressed="false">List</button>
+                    </div>
+                </div>
+                <div id="members" class="members-grid">
+                    <p class="loading">Loading Chamber members</p>
+                </div>
+
+            </sectoin>
+        </main>
+        <footer class="site-footer">
+            <div class="footer-container">
+                <div class="footer-business">
+                <h2>Abuja Municipal Area Council Business Chember</h2>
+                <address>Abuja Municipal Area Council<br>Federal Capital Territory, Nigeria<br>phone:
+                +234 813 569 2810<br>Email:info@amacbusinesschember.com</address>
+                </div>
+                <div class="social-links">
+                <a href="#" aria-label="Abuja Municipal Area Council Business Chember on Facebook">Facebook</a>
+                <a href="#" aria-label="Abuja Municipal Area Council Business Chember on Instagram">Instagram</a>
+                <a href="#" aria-label="Abuja Municipal Area Councio Business Chember on LinkedIn">LinkedIn</a>
+                </div>
+                <div class="footer-development">
+                <h2>Development Information</h2>
+                <p>Eneche John<br>WDD 231</p>
+                <p>&copy;<span>id="currentyear"</span>Abuja Municipal Area Council Business Chember</p>
+                <p>Last Modified:<span>id="lastModified"</span></p>
+                </div>
+
+            </div>
+        </footer>
+    </body>
+</html>
