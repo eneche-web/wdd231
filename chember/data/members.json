@@ -1,0 +1,8 @@
+[
+    {"name":"Capital ICT Services", "address":"22 Aminu Kano Crescent,Wuse II,Abuja,FCT,Nigeria","phone":"+234 802 345 6780",
+    "website":"https://capitalict.com","image":"business1.webp","membership":2,"description":"information technology,digital services,computer support, and business technology solutions."},
+    {"name":"Federal City Construction Works","address":"8 Ebitu Ukiwe Street,Jabi,Abuja,FCT,Nigeria","phone":"+234 702 145 3780","website":"https://fccw.com","image":"business2.webp","membership":3,"description":"Construction,building finishing,renovation, and property improvement services."},
+    {"name":"Abuja Enterprise Solutions","address":"15 Gimbiya Street,Garki,Abuja,FCT,Nigeria","phone":"+234 802 135 9780","website":"https://esolutions.com","image":"business3.webp","membership":3,"description":"Business consulting and professional service supporting enterpreneurs and growing businesses in Abuja."},
+    {"name":"Capital Taste Foods","address":"12 Ahmadu Bello Way,Garki,Abuja,FCT,Nigeria","phone":"+234 705 145 7781","website":"https://citifoods.com","image":"business4.webp","membership":2,"description":"Food production,catering,food distribution, and hospitality services for Abuja resident and businesses."}
+
+]

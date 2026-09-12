@@ -1,0 +1,96 @@
+@media screen and (min-width:38rem){
+    .header-container{
+        align-items: center;
+        grid-template-columns: auto 1fr;
+    }
+
+    .brand-name{
+        font-size: 1.2rem;
+    }
+
+    .brand-location{
+        font-size: 0.8rem;
+    }
+
+    .brand-img{
+        width: 65px;
+        height: 65px;
+    }
+
+    .menu-button{
+        display: none;
+    }
+
+    .navigation{
+        display: flex;
+        flex-direction: row;
+        grid-column: 2;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 0.25rem;
+    }
+
+    .navigation a{
+        padding: 0.6rem 0.75rem;
+    }
+
+    .directory-intro{
+        padding: 2rem;
+    }
+
+    .directory-intro h1{
+        font-size: 2rem;
+    }
+
+    .directory-heading{
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: end;
+    }
+
+    .view-controls{
+        flex-shrink: 0;
+    }
+
+    .members-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+}
+
+
+
+@media screen {
+    main{
+        padding: 3rem 0;
+    }
+
+    .directory-intro h1{
+        font-size: 2.5rem;
+    }
+
+    .members-grid{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .member-card .member-list{
+        align-items: center;
+        grid-template-columns: 220px 1fr;
+    }
+
+    .member-card .member-list img{
+        width: 220px;
+        height: 160px;
+    }
+
+    .footer-container{
+        grid-template-columns: 2fr 1fr 1.5fr;
+    }
+
+    
+}
