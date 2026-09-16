@@ -1,6 +1,36 @@
 @media screen and (min-width: 1000px){
+
+    .header-content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem 2rem;
+    }
+
+    #menu-button{
+        display: none;
+    }
+
+    .navigation{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .navigation a{
+        padding: 1rem 2rem;
+    }
+
     .course-container{
         grid-template-columns: repeat(4, 1fr);
+        gap: 1rem;
+    }
+
+    .course-card{
+        min-height: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     main{
@@ -10,4 +40,31 @@
     section{
         padding: 1.5rem;
     }
+
+    .home-grid{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        align-items: start;
+        gap: 1.5rem;
+    }
+
+    .certificate{
+        grid-column: 1/-1;
+    }
+
+    .course-buttons{
+        flex-direction: row;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .filter-button{
+        min-width: 150px;
+    }
+
+    .social-links{
+        gap: 2rem;
+    }
+
+
 }

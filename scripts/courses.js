@@ -17,11 +17,15 @@ const courses = [
     {subject: "CSE", number:499, title:"Senior Project", credits: 2, completed: false}
 ];
 
+const courseContainer = document.querySelector("#course-container");
+
+const totalCredits = document.querySelector("#total-credits");
+
 const allButton = document.querySelector("#all-courses");
 
 const wddButton = document.querySelector("#wdd-cousres");
 
-const cseButton = document.querySelector("#cse-courrses");
+const cseButton = document.querySelector("#cse-courses");
 
 function displayCourse(courseList){
     coursecontainer.innerHTML = "";
@@ -60,22 +64,23 @@ function displayCourse(courseList){
 
 
     function setActiveButton(button){
-        document.querySelectorAll(".filter-button").forEach(item =>item.classList.remove("active"));
+        document.querySelectorAll(".filter-button").forEach(item =>{item.classList.remove("active"); 
+    });
 
         button.classList.add("active");
 
     }
 
 
-    allButton.addEventListener("click", ()=>{
+    allButton.addEventListener("click", () => {
         displayCourses(courses);
 
         setActiveButton(allButton);
     });
 
 
-    wddButton.addEventListener("click", ()=>{
-        const wddCourse = courses.filter(
+    wddButton.addEventListener("click", () => {
+        const wddCourses = courses.filter(
             course => course.subject === "WDD"
         );
 
@@ -85,7 +90,7 @@ function displayCourse(courseList){
     });
 
 
-    cseButton.addEventListener("click", ()=>{
+    cseButton.addEventListener("click", () => {
         const cseCourses = courses.filter(
             course => course.subject === "CSE"
         );

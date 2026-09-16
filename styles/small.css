@@ -1,6 +1,6 @@
 body{
     color: #222;
-    border-color: #f5f7f8;
+    background-color: #f5f7f8;
     margin: 0;
     font-family: "Roboto", sans-serif;
     line-height: 1.6;
@@ -11,7 +11,7 @@ header{
     color: white;
 }
 
-.header{
+.header-content{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -27,11 +27,26 @@ header{
 .profile img{
     width: 60px;
     height: 60px;
+    object-fit: cover;
 }
 
-.profil span{
+.profile span{
     font-size: 1.2rem;
     font-weight: 600;
+    
+}
+
+#menu-button{
+    border: none;
+    background: none;
+    font-size: 2rem;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+}
+
+#menu-button:hover, #menu-button:focus{
+    background-color: #163a47;
 }
 
 .navigation{
@@ -83,7 +98,7 @@ section{
     border-radius: 7px;
 }
 
-.home-gird{
+.home-grid{
     display: grid;
     gap: 1rem;
 }
@@ -105,7 +120,7 @@ section{
 .filter-button{
     background-color: #ddd;
     color: #222;
-    padding: 0.5;
+    padding: 0.75rem;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -124,7 +139,7 @@ section{
 
 .course-container{
     display: grid;
-    gap: 0.5;
+    gap: 0.5rem;
 }
 
 .course-card{
@@ -136,7 +151,7 @@ section{
 }
 
 .course-card p{
-    margin: 0.25 0 0;
+    margin: 0.25rem 0 0;
     font-size: 0.9rem;
 }
 
@@ -145,7 +160,7 @@ section{
 }
 
 .course-card.completed{
-    border-left: #2d6a4f;
+    border-left: 5px solid #2d6a4f;
     background-color: #d8eadf;
 }
 
