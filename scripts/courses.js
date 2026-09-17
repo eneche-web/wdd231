@@ -1,16 +1,16 @@
 const courses = [
-    {sbuject: "CSE", number:110, title:"Indroduction to Programming", credits: 2, completed: true},
-    {subject: "WDD", number:130, title:"Web Fundermentals", credits: 2, completed: true},
+    {subject: "CSE", number:110, title:"Introduction to Programming", credits: 2, completed: true},
+    {subject: "WDD", number:130, title:"Web Fundamentals", credits: 2, completed: true},
     {subject: "CSE", number:111, title:"Programming with Functions", credits: 2, completed: true},
     {subject: "ITM", number:111, title:"Introduction to Database", credits: 2, completed: true},
     {subject: "CSE", number:210, title:"Programming with Classes", credits: 2, completed: true},
-    {subject: "WDD", number:231, title:"Web Frontend Development 1", credcits: 2, completed: false},
+    {subject: "WDD", number:231, title:"Web Frontend Development 1", credits: 2, completed: false},
     {subject: "CSE", number:212, title:"programming With Data Structures", credits: 2, completed: false},
-    {subject: "WDD", number:330, title:"Web Frntend Development 2", credits: 2, completed: false},
+    {subject: "WDD", number:330, title:"Web Frontend Development 2", credits: 2, completed: false},
     {subject: "CSE", number:270, title:"Software Testing", credits: 2, completed: false},
     {subject: "WDD", number:430, title:"Web Full-stack Development", credits: 2, completed: false},
     {subject: "CSE", number:300, title:"Professional Readiness", credits: 2, completed: false},
-    {subject: "CSE", number:340, titl:"Web Backend Development", credits: 2, completed: false},
+    {subject: "CSE", number:340, title:"Web Backend Development", credits: 2, completed: false},
     {subject: "CSE", number:310, title:"Applied Programming", credits: 2, completed: false},
     {subject: "CSE", number:341, title:"Web Service", credits: 2, completed: false},
     {subject: "CSE", number:370, title:"Software Engineering Principles", credits: 2, completed: false},
@@ -23,12 +23,12 @@ const totalCredits = document.querySelector("#total-credits");
 
 const allButton = document.querySelector("#all-courses");
 
-const wddButton = document.querySelector("#wdd-cousres");
+const wddButton = document.querySelector("#wdd-courses");
 
 const cseButton = document.querySelector("#cse-courses");
 
 function displayCourse(courseList){
-    coursecontainer.innerHTML = "";
+    courseContainer.innerHTML = "";
 
     courseList.forEach(course =>{
         const card = document.createElement("div");
@@ -73,7 +73,7 @@ function displayCourse(courseList){
 
 
     allButton.addEventListener("click", () => {
-        displayCourses(courses);
+        displayCourse(courses);
 
         setActiveButton(allButton);
     });
@@ -84,7 +84,7 @@ function displayCourse(courseList){
             course => course.subject === "WDD"
         );
 
-        displayCourses(wddCourses);
+        displayCourse(wddCourses);
 
         setActiveButton(wddButton);
     });
@@ -95,9 +95,9 @@ function displayCourse(courseList){
             course => course.subject === "CSE"
         );
 
-        displayCourses(cseCourses);
+        displayCourse(cseCourses);
 
         setActiveButton(cseButton);
     });
 
-    displayCourses(courses);
+    displayCourse(courses);
