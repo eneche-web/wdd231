@@ -124,7 +124,7 @@ main{
     padding: 2rem 0;
 }
 
-.directory-introduction{
+.directory-intro{
     background-color: var(--white);
     padding: 1.5rem;
     margin-bottom: 1.5rem;
@@ -335,6 +335,90 @@ main{
         width: 100%;
     }
 }
+
+.weather-section{
+    background-color: var(--white);
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: var(--shadow);
+}
+
+.weather-section h2, .weather-section h3{
+    color: var(--primary);
+}
+
+.current-weather{
+    margin-bottom: 1.5rem;
+}
+
+.current-temprature{
+    margin-bottom: 0.5rem;
+    color: var(--primary);
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.forecast-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.forecast-card{
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid var(--border);
+    background-color: var(--background);
+    border-radius: 0.4rem;
+}
+
+.forecast-card p{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.spotlight-section{
+    margin: 2rem;
+}
+
+.spotlight-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+
+.spotlight-card{
+    padding: 1rem;
+    border: 1px solid var(--border);
+    background-color: var(--white);
+    border-radius: 0.5rem;
+    box-shadow: var(--shadow);
+}
+
+.spotlight-card h3{
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+}
+
+.spotlight-card img{
+    width: 100%;
+    height: 150%;
+    object-fit: contain;
+    margin-bottom: 1rem;
+}
+
+.spotlight-level{
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    background-color: var(--secondary);
+    font-size: 0.8rem;
+    font-weight: 700;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+
 
 
 

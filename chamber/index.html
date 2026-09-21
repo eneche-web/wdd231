@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Abuja Municipal Business Chamber connects businesses, enterpreneurs, and professionals in Abuja Municipal Area Council, FCT,  Nigeria.">
+        <meta name="author" content="Eneche John">
+        <meta property="og:title" content="Abuja Municipal Business Chamber">
+        <meta property="og:description" content="Connecting business and supporting business growth in Abuja Municipal Area Council.">
+        <meta property="og:image" content="images/logo.svg">
+        <meta property="og:url" content="https://eneche-web.github.io/wdd231/chamber/index.html">
+        <meta property="og:type" content="website">      
+        <title>Abuja Municipal Area Business Chamber | Home</title>
+        <link rel="icon" href="images/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Monserrat:wght@500;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/small.css">
+        <link rel="stylesheet" href="styles/larger.css">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <script src="scripts/home.js" defer></script>
+    </head>
+    <body>
+        <header class="site-header">
+            <div class="header-container">
+                <a class="brand" href="index.html">
+                    <img src="images/logo.png" alt="Abuja Municipal Business Chamber logo" width="65" height="65">
+                    <span class="brand-text">
+                        <span class="brand-name">Abuja Municipal Business Chamber</span>
+                        <span class="brand-location">Abuja Municipal Area Council, FCT</span>
+                    </span>
+                </a>
+                <button id="menu" class="menu-button" type="button" aria-label="Open navigation menu" aria-controls="navigation">≡</button>
+                <nav id="navigation" class="navigation" aria-label="Main navigation">
+                    <a class="active" href="index.html">Home</a>
+                    <a href="directory.html">Directory</a>
+                    <a href="events.html">Events</a>
+                    <a href="about.html">About</a>
+                    <a href="join.html">Join</a>
+                </nav>
+        </header>
+        <main>
+            <section class="hero">
+                <div class="hero-content">
+                    <h1>Growing Business</h1>
+                    <p>
+                        The Abuja Municipal Business Chamber brings together business, entrepreneurs, and professionlas to encourage connections, collaboration,
+                        and economic growth in the Abuja Council.
+                    </p>
+                    <a class="hero-button" href="join.html">Join the Chamber</a>
+                </div>
+            </section>
+            <section class="welcome-section">
+                <h2>Supporting Businesses in AMAC</h2>
+                <p>
+                    The Abuja Municipal Business Chamber gives local business an opportunity to connect,
+                    promote their services, share ideas, and discover new opportunities.
+                </p>
+                <p>
+                    From established companies to new entrepreneurs, our Chamber provides opportunities to build
+                    relationships and support business growth in Abuja.
+                </p>
+            </section>
+            <section class="weather-section">
+                <h2>Abuja Weather</h2>
+                <div id="current-weather" class="current-weather">
+                    <p>Loading current weather...</p>
+                </div>
+                <h3>Three-Day Forecast</h3>
+                <div id="forecast"  class="forecast-container">
+                    <p>Loading forcast...</p>
+                </div>
+            </section>
+            <section class="spotlight-section">
+                <div class="section-heading">
+                    <h2>Member Sportlights</h2>
+                    <p>
+                        Meet some of the businesses that are part of our Chamber community.
+                    </p>
+                </div>
+                <div id="spotlights" class="spotlights-container">
+                    <p>
+                        Loading member sportlights...
+                    </p>
+                </div>
+            </section>
+            <section class="join-section">
+                <h2>Become a Chamber Member</h2>
+                <p>
+                    Connect with other businesses, promote your company, and take parts in 
+                    opportunities that support business growth in Abuja.
+                </p>
+                <a class="hero-button" href="join.html">Become a Member</a>
+            </section>
+        </main>
+        <footer class="site-footer">
+            <div class="footer-container">
+                <div>
+                    <h2>Abuja Municipal Business Chamber</h2>
+                    <address>
+                        Abuja Municipal Area Council<br>Federal Capital Territory<br>Nigeria
+                    </address>
+                    <p>
+                        phone:
+                        <a href="tel: +2348135692810">234 8135692810</a>
+                    </p>
+                    <p>
+                        Email:
+                        <a href=>info@amacbusinesschamber.com</a>
+                    </p>
+
+                </div>
+                <div>
+                    <h2>Connect With Us</h2>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">Facebook</a>
+                        <a href="#" aria-label="Instagram">Instagram</a>
+                        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                    </div>
+                </div>
+                <div>
+                    <h2>WDD 231</h2>
+                    <P>Chamber of Commerce Project</P>
+                    <p>Created by Eneche John</p>
+                    <p>&copy; <span id="currentyear"></span>Abuja Municipal Business Chamber</p>
+                    <p>Last Modified: <span id="lastmodified"></span></p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

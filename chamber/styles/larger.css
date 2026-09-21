@@ -94,3 +94,31 @@
 
     
 }
+
+@media screen and (min-width:38rem){
+    
+    .forecast-container{
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+    .spotlights-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media screen and (min-width:64rem){
+
+    .weather-section{
+        padding: 2rem;
+    }
+
+    .spotlights-container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .spotlight-card{
+        padding: 1.5rem;
+    }
+}
