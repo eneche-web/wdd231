@@ -67,7 +67,7 @@ a:hover{
 }
 
 .brand-location{
-    font-size: 0.0.75rem;
+    font-size: 0.75rem;
 }
 
 .menu-button{
@@ -79,7 +79,7 @@ a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 0,35rem;
+    border-radius: 0.35rem;
     font-size: 1.5rem;
 }
 
