@@ -122,3 +122,69 @@
         padding: 1.5rem;
     }
 }
+
+@media screen and (min-width:38rem){
+    .events-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width:64rem){
+    .events-container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (min-width:641px){
+    .discover-introduction{
+        grid-template-columns: 2fr 1fr;
+        align-items: center;
+
+    }
+
+    .place-grid{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 
+        "place1 place2"
+        "place3 place4"
+        "place5 place6";
+    }
+}
+
+@media screen and (min-width:1025px){
+    .discover-hero{
+        min-height: 400px;
+    }
+
+    .discover-hero h1{
+        font-size: 3.2rem;
+
+    }
+
+    .discover-introduction{
+        padding: 2rem;
+    }
+
+    .place-grid{
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas: 
+        "place1 place1 place2 place3"
+        "place4 place5 place5 place6";
+
+    }
+
+    .place-card img{
+        transition: 
+        transorm 0.3s ease, filter 0.3s ease, opacity 0.3s ease;
+    }
+
+    .place-card figure:hover img{
+        transform: scale(1.04);
+        filter: brightness(0.82);
+        opacity: 0.92;
+    }
+
+    .place-card:hover{
+        transform: translate(-3px);
+    }
+}

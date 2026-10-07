@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Discover places, attractions, culture, recreation, and business opportunities in Abuja Municipal Area Council.">
+        <meta name="author" content="Eneche John">
+        <meta property="og:title" content="Discover Abuja | Abuja Municipal Business Chamber">
+        <meta property="og:description" content="Explore attractions, landmarks, markets, parks, and other places of interest in Abuja Municipal Area Council.">
+        <meta property="og:image" content="https://eneche-web.github.io/wdd231/chamber/images/logo.webp">
+        <meta property="og:url" content="https://eneche-web.github.io/wdd231/chamber/discover.html">
+        <meta property="og:type" content="website">      
+        <title>Discover Abuja | Abuja Municipal Business Chamber| Home</title>
+        <link rel="icon" href="images/logo.webp">
+        <link rel="stylesheet" href="styles/small.css">
+        <link rel="stylesheet" href="styles/larger.css">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <script src="scripts/discover.js" type="module"  defer></script>
+    </head>
+    <body>
+        <header>
+            <div class="header-container">
+                <div class="brand">
+                    <a href="index.html" aria-label="Abuja Municipal Business Chamber home">
+                        <img src="images/logo.webp" alt="Abuja Municipal Business Chamber logo" width="100" height="100">
+                    </a>
+                    <div class="brand-name">
+                        <span>Abuja Municipal</span>
+                        <strong>Business Chamber</strong>
+                    </div>
+
+                </div>
+                <button id="menu-button" class="menu-button" aria-label="Open navivagation menu" aria-expanded="false"></button>
+                <nav>
+                    <ul id="primary-navigation" clas="navigation">
+                        <li>
+                            <a href="index.html">
+                            Home
+                            </a>
+                        </l>
+                        <li>
+                            <a href="join.html">
+                            Join
+                            </a>
+                        </li>
+                        <li>
+                            <a href="discover.html" class="active" aria-current="page">
+                            Discover
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section class="discover-hero">
+                <div class="discover-hero-content">
+                    <p class="eyebrow">
+                        Explore Abuja Municipal Area Council
+                    </p>
+                    <h1>
+                        Discover Abuja
+                    </h1>
+                    <p>
+                        Explore the magnificient landmarks, parks, markets, cultural attractions, and community spaces that make Abuja a great place to live, visit, and do business.
+                    </p>
+                </div>
+            </section>
+            <section class="visitor-message" aria-live="polite">
+                <p id="visit-message">
+                    Welcome! Let us know if you have any questions.
+                </p>
+            </section>
+            <section class="discover-introduction">
+                <div>
+                    <p class="eyebrow">
+                        About the Area
+                    </p>
+                    <h2>
+                        Abuja Municipal Area Council
+                    </h2>
+                    <p>
+                        Abuja Municipal Area Council, also known as AMAC, contains many of the central districts and important landmarks of Nigeria's Federal Capital Territory.
+                        The area combines government institutions, businesses, residentail communities, shopping districts, recreation, culture, and tourism.
+                    </p>
+                    <p>
+                        Abuja officially became the nation's capital in 1991 as planned. Today, the city continues to attract businesses, residents, visitors, and organizations from across Nigeria and all over the world.
+                    </p>
+                </div>
+                <div class="area-stat">
+                    <span>2006</span>
+                    <strong>776,298</strong>
+                    <p>
+                        AMAC population record in the 2006 census
+                    </p>
+                </div>
+            </section>
+            <section class="places-section">
+                <div class="section-heading">
+                    <p class="eyebrow">
+                        Places of Interest
+                    </p>
+                    <h2>
+                        Explore the Area
+                    </h2>
+                    <p>
+                        Discover some of the spectacular places that represent the history, character, recreation, and business life of Abuja.
+                    </p>
+                </div>
+                <div id="places-container" class="places-grid">
+                    <!--javascript would creat the cards here-->
+                </div>
+            </section>
+            <section class="discover-sources">
+                <h2>
+                    Information Sources
+                </h2>
+                <p>
+                    The information on Abuja attractions and the area is referenced from the official Federal Capital Territory information and National Bureau of Statistics material.
+                </p>
+                <p>
+                    Information and admission details can change, so visitors should confirm current information before travelling.
+                </p>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-container">
+                <div class="footer-about">
+                    <img src="images/logo.webp" alt="Abuja Municipal Area Business Chamber logo" width="90" height="90">
+                    <h2>
+                        Abuja Municipal Area Buisness Chamber
+                    </h2>
+                    <p>
+                        Encouraging economic growth and supporting businesses in Abuja Municipal Area Council.
+                    </p>
+                </div>
+                <div class="footer-contact">
+                    <h2>
+                        Contact
+                    </h2>
+                    <p>
+                        Abuja Municipal Area Council
+                    </p>
+                    <p>
+                        Abuja, FCT, Nigeria
+                    </p>
+                    <p>
+                        Email:
+                    </p>
+                </div>
+                <div class=footer-links>
+                    <h2>
+                        Quick Links
+                    </h2>
+                    <a href="index.html">
+                        Home
+                    </a>
+                    <a href="directory.html">
+                        Directory
+                    </a>
+                    <a href="join.html">
+                        Join
+                    </a>
+                    <a href="discover.html">
+                        Discover
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>
+                    &copy; <span id="current-year"></span>
+                    Abuja Municipal Area Council Business Chamber.
+                    All rights reserved.
+                </p>
+                <p>
+                    WDD231 Chamber Project
+                </p>
+                <p>
+                    Last Modified: <span id="last-modified"></span>
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>
