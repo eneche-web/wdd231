@@ -1,0 +1,215 @@
+.events-page{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.events-heading{
+    text-align: center;
+    padding: 1rem;
+}
+
+.events-heading h1{
+    margin-bottom: 0.75rem;
+}
+
+.events-heading p{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.upcoming-events{
+    margin-bottom: 2rem;
+}
+
+.event-list{
+    display: grid;
+    gap: 1.5rem;
+}
+
+.event-detail-card{
+    display: grid;
+    gap: 1.25rem;
+    background-color: var(--white);
+    border: var(--border);
+    border-radius: 8px;
+    padding: 1.25rem;
+    box-shadow: var(--shadow);
+}
+
+.event-date-box{
+    width: 100px;
+    padding: 0.75rem;
+    background-color: var(--primary);
+    color: var(--white);
+    border-radius: 8px;
+    text-align: center;
+    align-self: start;
+    margin: 0 auto;
+}
+
+.event-month{
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.event-year{
+    display: block;
+    font-size: 0.85rem;
+
+}
+
+.event-information h3{
+    margin-bottom: 0.75rem;
+}
+
+.event-information p{
+    margin-bottom: 0.75rem;
+}
+
+.event-time, .event-location{
+    color: var(--text);
+}
+
+.event-button{
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.6rem;
+    background-color: var(--primary);
+    color: var(--white);
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 700;
+
+}
+
+.event-button:hover, .event-button:focus{
+    background-color: #0c2744;
+}
+
+.event-information-section{
+    margin: 2rem 0;
+    padding: 2rem 1.2rem;
+    background-color: var(--background);
+    border-radius: 8px;
+}
+
+.event-information-content{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.event-information-content h2{
+    margin-bottom: 0.8rem;
+}
+
+.event-benefits{
+    display: grid;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.benefits{
+    background-color: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1rem;
+
+}
+
+.benefits h3{
+    margin-bottom: 0.5rem;
+}
+
+.event-cta{
+    margin-top: 2rem;
+    padding: 2.5rem;
+    text-align: center;
+    background-color: var(--primary);
+    color: var(--white);
+    border-radius: 8px;
+}
+
+.event-cta h2{
+    margin-bottom: 0.75rem;
+}
+
+.event-cta p{
+    max-width: 650px;
+    margin: 0 auto 1.25rem;
+}
+
+.event-cta, .hero-button{
+    display: inline-block;
+    background-color: var(--secondary);
+    color: var(--text);
+    padding: 0.75rem;
+    border-radius: 5px;
+    font-weight: 700;
+    text-decoration: none;
+
+}
+
+.event-button:focus, .event-cta a:focus{
+    outline: 3px solid var(--secondary);
+    outline-offset: 3px;
+}
+
+
+@media screen and (min-width:38rem){
+    .events-page{
+        padding: 2.5rem 1.5rem;
+    }
+
+    .event-detail-card{
+        grid-template-columns: 110px 1fr;
+        align-items: start;
+        padding: 1.5rem;
+    }
+
+    .event-date-box{
+        margin: 0;
+    }
+
+    .event-benefits{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+@media screen and (min-width:64rem){
+    .events-page{
+        padding-top: 3rem;
+    }
+
+    .events-heading{
+        padding-bottom: 3rem;
+    }
+
+    .event-list{
+        gap: 2rem;
+    }
+
+    .event-detail-card{
+        grid-template-columns: 120px 1fr;
+        padding: 1.75rem;
+    }
+
+    .event-date-box{
+        width: 110px;
+    }
+
+    .event-day{
+        font-size: 2.5rem;
+    }
+
+    .event-information-section{
+        padding: 2.5rem;
+    }
+
+    .event-cta{
+        padding: 3rem;
+    }
+}

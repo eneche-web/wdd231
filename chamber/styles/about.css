@@ -1,0 +1,218 @@
+
+.about-page{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.about-heading{
+    text-align: center;
+    padding: 1rem 0 2rem;
+}
+
+.about-heading h1{
+    margin-bottom: 0.75rem;
+}
+
+.about-heading p{
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.about-introduction{
+    display: grid;
+    gap: 2rem;
+    margin-bottom: 3rem;
+
+}
+
+.about-text{
+    align-self: center;
+}
+
+.section-label{
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    color: var(--primary);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+}
+
+.about-text h2{
+    margin-bottom: 1rem;
+}
+
+.about-text p{
+    margin-bottom: 1rem;
+}
+
+.about-image img{
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+}
+
+.mission-section{
+    padding: 2rem 1rem;
+    margin-bottom: 3rem;
+    background-color: var(--background);
+    border-radius: 8px;
+}
+
+.mission-grid{
+    display: grid;
+    gap: 1.5rem;
+}
+
+.mission-card{
+    padding: 1.5rem;
+    background-color: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+}
+
+.mission-card h3{
+    margin-bottom: 3rem;
+}
+
+.what-we-do{
+    margin-bottom: 3rem;
+}
+
+.service-grid{
+    display: grid;
+    gap: 1rem;
+}
+
+.about-card{
+    padding: 1.25rem;
+    background-color: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+}
+
+.about-card h3{
+    margin-bottom: 0.75rem;
+}
+
+.community-section{
+    margin-bottom: 3rem;
+    padding: 2rem 1.25rem;
+    background-color: var(--primary);
+    color: var(--white);
+    border-radius: 8px;
+}
+
+.community-content{
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.community-content h2{
+    margin-bottom: 1rem;
+}
+
+.community-content p{
+    margin-bottom: 1rem;
+}
+
+.benefits-section{
+    margin-bottom: 3rem;
+}
+
+.benefits-grid{
+    display: grid;
+    gap: 1rem;
+}
+
+.benefit-card{
+    padding: 1.25rem;
+    background-color: var(--white);
+    border: 1px solid var(--border);
+    border-radius: var(--shadow);
+
+}
+
+.benefit-card h3{
+    margin-bottom: 0.75rem;
+}
+
+.about-cta{
+    padding: 2.5rem 1rem;
+    text-align: center;
+    background-color: var(--background);
+    border-radius: 8px;
+}
+
+.about-cta h2{
+    margin-bottom: 0.75rem;
+}
+
+.about-cta p{
+    max-width: 700px;
+    margin: 0 auto 1.25rem;
+}
+
+.about-cta a:focus{
+    outline: 3px solid var(--secondary);
+    outline-offset: 3px;
+}
+
+
+@media screen and (min-width:38rem){
+    .about-page{
+        padding: 2.5rem 1.5rem;
+    }
+
+    .about-introduction{
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+
+    .mission-grid{
+        grid-template-columns: 2, 1fr;
+    }
+
+    .service-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .benefits-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media screen and (min-width:64rem){
+    .about-page{
+        padding-top: 3rem;
+    }
+
+    .about-heading{
+        padding-bottom: 3rem;
+    }
+
+    .about-introduction{
+        gap: 3rem;
+    }
+
+    .service-grid{
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .benefits-grid{
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .community-section{
+        padding: 3rem;
+    }
+
+    .about-cta{
+        padding: 3rem;
+    }
+}
