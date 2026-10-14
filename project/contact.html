@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Contact BuildWise with questions of concern, suggestions, or feedback about the construction materials guide.">
+        <meta name="author" content="Eneche John">
+        <meta property="og:title" content="BuildWise | Contact">
+        <meta property="og:description" content="Contact BuildWise with questions of concern, suggestions, or feedback.">
+        <meta property="og:image" content="https://eneche-web.github.io/wdd231/chamber/images/logo.webp">
+        <meta property="og:url" content="https://eneche-web.github.io/wdd231/chamber/index.html">
+        <meta property="og:type" content="website">      
+        <title>BuildWise | Contact</title>
+        <link rel="stylesheet" href="styles/small.css">
+        <link rel="stylesheet" href="styles/larger.css">
+        <script src="scripts/contact.js" defer></script>
+    </head>
+    <body>
+        <header class="site-header">
+            <div class="header-container">
+                <a  href="index.html" class="logo-link">
+                    <h1>BuildWise</h1>
+                    <p>
+                        Construction Materials Guide
+                    </p>
+                    <button id="menu-button"
+                    types="button"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false"
+                    aria-controls="primary-navigation">
+                </button>
+            </div>
+            <nav id="primary-navigation" aria-label="Main navigation">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="materials.html">Materials</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="page-intro">
+                <div class="container">
+                    <h2>Contact BuildWise</h>
+                    <p>
+                        Do you have a question, suggestion, or comment about the construction materials guide?
+                        Send us a message.
+                    </p>
+                </div>
+            </section>
+            <section>
+                <div class="container contact-layout">
+                    <div class="contact-form-section">
+                        <h2>
+                            Send a Message
+                        </h2>
+                        <p>
+                            Please complete the form below. All required fields must be fiiled
+                            in before the form can be submitted
+                        </p>
+                        <form id="contact-form" method="get" action="contact.html">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" required minlength="2" placeholder="Enter your name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="text" id="email" name="email" autocomplete="email" required placeholder="example@email.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input  type="text" id="subject" name="subject" required minlength="3" placeholder="What is your message about?">
+                            </div>
+                            <div class="form-group">
+                                <label for="Message">Message</label>
+                                <textarea id="message" name="message" rows="7" required minlength="10" placeholder="Write your message here"></textarea>
+                            </div>
+                            <button type="submit" class="button">Send Message</button>
+                        </form>
+                    </div>
+                    <aside class="contact-inormation">
+                        <h2>
+                            About Your Message
+                        </h2>
+                        <p>
+                            BuildWise is a student educational project. The contact form is included to demonstrate accessible HTML forms, JavaScript, and browser functionality.
+                        </p>
+                        <h3>Good Topics to send</h3>
+                        <ul>
+                            <li>
+                                Questions about the website
+                            </li>
+                            <li>
+                                Suggestions for new materials
+                            </li>
+                            <li>
+                                Suggestions for improving the guide
+                            </li>
+                            <li>
+                                Feedback about the user experience
+                            </li>
+                        </ul>
+                        <div class="materials-note">
+                            <strong>Please note:</strong>
+                            <p>
+                                This website does not provide professional engineering or construction consultation.
+                            </p>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+            <section id="form-result" class="form-result" aria-live="polite" hidden>
+                <div class="container">
+                    <h2>
+                        Thank You!
+                    </h2>
+                    <p id="result-message"></p>
+                    <a href="materials.html" class="button">
+                        Return to Materials
+                    </a>
+                </div>
+            </section>
+        </main>
+        <footer class="site-footer">
+            <div class="footer-container">
+                <div>
+                    <h2>BuildWise</h2>
+                    <p>
+                        A simple construction materials guide for learning and exploration.
+                    </p>
+                </div>
+                <div>
+                    <h3>
+                        Quick Links
+                    </h3>
+                    <ul class="footer llinks">
+                        <li>
+                            <a href="materials.html">Materials</a>
+                        </li>
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Project Information</h3>
+                    <P>WDD231 Final Project</P>
+                    <p>Created by Eneche John</p>
+                    <p>&copy; <span id="currentyear"></span>BuildWise</p>
+                    <p>Last Modified: <span id="lastmodified"></span></p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

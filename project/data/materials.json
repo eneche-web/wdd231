@@ -1,0 +1,541 @@
+[
+    {
+        "id": 1,
+        "name": "Cement",
+        "category": "Masonry",
+        "description": "Cement is a binding material commonly used to make concrete, mortar, screed, and other construction mixtures.",
+        "uses": [
+            "Concrete production",
+            "Block and brick mortar",
+            "Floor screeding",
+            "Plastering"
+        ],
+        "properties": [
+            "Powdered material",
+            "Binds other materials together",
+            "Hardens when mixed with water",
+            "Available in different grades and types"
+        ],
+        "advantages": [
+            "Widely available",
+            "Useful for many construction activities",
+            "Strong when properly mixed and cured",
+            "Can be combined with other materials"
+        ],
+        "considerations": [
+            "Must be stored away from moisture",
+            "Incorrect mixing can affect performance",
+            "Dust should not be inhaled"
+        ]
+    },
+
+    {
+        "id": 2,
+        "name": "Concrete",
+        "category": "Structural",
+        "description": "Concrete is a mixture commonly made from cement, water, sand, and coarse aggregate. It is widely used in construction.",
+        "uses": [
+            "Foundations",
+            "Floor slabs",
+            "Columns and beams",
+            "Pavements"
+        ],
+        "properties": [
+            "Hardens after mixing and curing",
+            "Can carry significant loads",
+            "Can be formed into different shapes",
+            "Durable when properly produced"
+        ],
+        "advantages": [
+            "Versatile",
+            "Widely available",
+            "Can be reinforced with steel",
+            "Suitable for many types of construction"
+        ],
+        "considerations": [
+            "Requires correct proportions",
+            "Needs proper curing",
+            "Heavy compared with some other materials"
+        ]
+    },
+
+    {
+        "id": 3,
+        "name": "Sand",
+        "category": "Masonry",
+        "description": "Sand is a fine aggregate used in many construction mixtures, including mortar, concrete, plaster, and screed.",
+        "uses": [
+            "Mortar",
+            "Concrete",
+            "Plastering",
+            "Floor screeding"
+        ],
+        "properties": [
+            "Fine granular material",
+            "Available in different grades",
+            "Can be natural or manufactured",
+            "Mixes with cement and water"
+        ],
+        "advantages": [
+            "Commonly available",
+            "Useful in many construction mixtures",
+            "Easy to transport",
+            "Relatively inexpensive in many locations"
+        ],
+        "considerations": [
+            "Quality varies by source",
+            "Excessive impurities can affect mixtures",
+            "The correct type should be selected for the intended use"
+        ]
+    },
+
+    {
+        "id": 4,
+        "name": "Gravel",
+        "category": "Structural",
+        "description": "Gravel is a coarse aggregate commonly used in concrete and drainage applications.",
+        "uses": [
+            "Concrete production",
+            "Drainage",
+            "Road construction",
+            "Ground preparation"
+        ],
+        "properties": [
+            "Coarse granular material",
+            "Available in different sizes",
+            "Provides bulk to concrete mixtures",
+            "Generally durable"
+        ],
+        "advantages": [
+            "Widely used",
+            "Provides good support in mixtures",
+            "Useful for drainage",
+            "Available in different sizes"
+        ],
+        "considerations": [
+            "Size selection is important",
+            "Should be reasonably clean",
+            "Transport can be expensive because of its weight"
+        ]
+    },
+
+    {
+        "id": 5,
+        "name": "Concrete Blocks",
+        "category": "Masonry",
+        "description": "Concrete blocks are manufactured masonry units commonly used for walls, partitions, and other building work.",
+        "uses": [
+            "External walls",
+            "Internal walls",
+            "Partitions",
+            "Boundary walls"
+        ],
+        "properties": [
+            "Rigid masonry units",
+            "Available in different sizes",
+            "Can be solid or hollow",
+            "Made mainly from cement and aggregates"
+        ],
+        "advantages": [
+            "Easy to use in wall construction",
+            "Durable when properly produced",
+            "Commonly available",
+            "Can provide good fire resistance"
+        ],
+        "considerations": [
+            "Quality depends on manufacturing",
+            "Blocks are relatively heavy",
+            "Walls may require additional finishing"
+        ]
+    },
+
+    {
+        "id": 6,
+        "name": "Bricks",
+        "category": "Masonry",
+        "description": "Bricks are masonry units made from materials such as fired clay or concrete and are commonly used for walls and architectural features.",
+        "uses": [
+            "Wall construction",
+            "Partition walls",
+            "Paving",
+            "Decorative features"
+        ],
+        "properties": [
+            "Rigid units",
+            "Available in different sizes",
+            "Can have a textured surface",
+            "Good resistance to fire"
+        ],
+        "advantages": [
+            "Durable",
+            "Low maintenance",
+            "Can provide an attractive appearance",
+            "Good fire resistance"
+        ],
+        "considerations": [
+            "Quality varies between products",
+            "Can be heavy",
+            "Mortar is required for traditional brickwork"
+        ]
+    },
+
+    {
+        "id": 7,
+        "name": "Steel",
+        "category": "Structural",
+        "description": "Steel is a strong metal widely used in buildings for reinforcement, structural frames, roofing, and other construction applications.",
+        "uses": [
+            "Reinforcement bars",
+            "Structural frames",
+            "Roof structures",
+            "Railings and supports"
+        ],
+        "properties": [
+            "High strength",
+            "Relatively ductile",
+            "Can be shaped into many forms",
+            "Recyclable"
+        ],
+        "advantages": [
+            "Strong",
+            "Consistent manufactured quality",
+            "Can span large distances",
+            "Widely used in modern construction"
+        ],
+        "considerations": [
+            "Can corrode if not properly protected",
+            "Requires suitable tools and skills",
+            "Material prices can change"
+        ]
+    },
+
+    {
+        "id": 8,
+        "name": "Timber",
+        "category": "Structural",
+        "description": "Timber is wood prepared for construction and is used for structural, finishing, furniture, and temporary construction applications.",
+        "uses": [
+            "Roof structures",
+            "Doors and windows",
+            "Furniture",
+            "Interior finishing"
+        ],
+        "properties": [
+            "Relatively lightweight",
+            "Easy to cut and shape",
+            "Natural material",
+            "Available in different species and grades"
+        ],
+        "advantages": [
+            "Easy to work with",
+            "Good appearance",
+            "Can be renewable when responsibly sourced",
+            "Useful for both construction and finishing"
+        ],
+        "considerations": [
+            "Can be affected by moisture",
+            "May require treatment against insects",
+            "Quality varies between species and grades"
+        ]
+    },
+
+    {
+        "id": 9,
+        "name": "Roofing Sheets",
+        "category": "Roofing",
+        "description": "Roofing sheets are manufactured panels used to protect buildings from rain, sunlight, and other weather conditions.",
+        "uses": [
+            "Residential roofs",
+            "Commercial roofs",
+            "Sheds",
+            "Industrial buildings"
+        ],
+        "properties": [
+            "Available in different materials",
+            "Lightweight compared with some roofing systems",
+            "Available in different profiles",
+            "Designed to shed rainwater"
+        ],
+        "advantages": [
+            "Relatively quick to install",
+            "Many styles and finishes are available",
+            "Suitable for different building types",
+            "Generally easy to maintain"
+        ],
+        "considerations": [
+            "Correct installation is important",
+            "Some types can be noisy during heavy rain",
+            "Quality and thickness vary between products"
+        ]
+    },
+
+    {
+        "id": 10,
+        "name": "Glass",
+        "category": "Finishing",
+        "description": "Glass is a transparent or translucent material commonly used for windows, doors, partitions, and decorative applications.",
+        "uses": [
+            "Windows",
+            "Glass doors",
+            "Partitions",
+            "Decorative features"
+        ],
+        "properties": [
+            "Can be transparent",
+            "Smooth surface",
+            "Available in different thicknesses",
+            "Can be specially treated for different applications"
+        ],
+        "advantages": [
+            "Allows natural light",
+            "Can make spaces feel larger",
+            "Available in many designs",
+            "Easy to clean when properly installed"
+        ],
+        "considerations": [
+            "Can break if incorrectly handled",
+            "Installation requires care",
+            "Different applications require appropriate glass types"
+        ]
+    },
+
+    {
+        "id": 11,
+        "name": "Ceramic Tiles",
+        "category": "Finishing",
+        "description": "Ceramic tiles are manufactured surfaces commonly used on floors, walls, bathrooms, kitchens, and other interior spaces.",
+        "uses": [
+            "Flooring",
+            "Wall finishes",
+            "Bathrooms",
+            "Kitchen surfaces"
+        ],
+        "properties": [
+            "Hard surface",
+            "Available in many colors and patterns",
+            "Easy to clean",
+            "Available in different sizes"
+        ],
+        "advantages": [
+            "Durable",
+            "Easy to maintain",
+            "Many designs are available",
+            "Suitable for many interior applications"
+        ],
+        "considerations": [
+            "Can crack if poorly installed",
+            "Some surfaces can become slippery when wet",
+            "Requires a suitable adhesive or mortar"
+        ]
+    },
+
+    {
+        "id": 12,
+        "name": "Paint",
+        "category": "Finishing",
+        "description": "Paint is a finishing material applied to walls, ceilings, wood, metal, and other surfaces for protection and decoration.",
+        "uses": [
+            "Interior walls",
+            "Exterior walls",
+            "Wood finishing",
+            "Metal surfaces"
+        ],
+        "properties": [
+            "Available in different finishes",
+            "Available in many colors",
+            "Can provide surface protection",
+            "Different formulations are made for different surfaces"
+        ],
+        "advantages": [
+            "Improves appearance",
+            "Many colors and finishes are available",
+            "Can help protect surfaces",
+            "Relatively easy to refresh"
+        ],
+        "considerations": [
+            "Surface preparation is important",
+            "Different surfaces may require different paints",
+            "Paint should be used in a well-ventilated area"
+        ]
+    },
+
+    {
+        "id": 13,
+        "name": "Plaster",
+        "category": "Finishing",
+        "description": "Plaster is a material used to create a smoother and more finished surface on walls and ceilings.",
+        "uses": [
+            "Wall finishing",
+            "Ceiling finishing",
+            "Decorative work",
+            "Surface repair"
+        ],
+        "properties": [
+            "Can create a smooth surface",
+            "Available in different formulations",
+            "Can be applied by hand or with suitable equipment",
+            "Can be finished in different textures"
+        ],
+        "advantages": [
+            "Improves wall appearance",
+            "Provides a suitable surface for painting",
+            "Can cover minor surface irregularities",
+            "Useful for decorative work"
+        ],
+        "considerations": [
+            "Requires proper surface preparation",
+            "Application requires some skill",
+            "Drying time depends on the material and conditions"
+        ]
+    },
+
+    {
+        "id": 14,
+        "name": "Gypsum Board",
+        "category": "Finishing",
+        "description": "Gypsum board is a manufactured panel commonly used for interior walls, ceilings, partitions, and other dry construction applications.",
+        "uses": [
+            "Interior partitions",
+            "False ceilings",
+            "Wall lining",
+            "Interior design features"
+        ],
+        "properties": [
+            "Lightweight compared with masonry",
+            "Flat manufactured panels",
+            "Easy to cut",
+            "Available in different types"
+        ],
+        "advantages": [
+            "Quick to install",
+            "Creates smooth surfaces",
+            "Useful for interior layouts",
+            "Easy to work with using suitable tools"
+        ],
+        "considerations": [
+            "Standard boards are not suitable for every wet location",
+            "Panels can be damaged by impact",
+            "Correct framing and installation are important"
+        ]
+    },
+
+    {
+        "id": 15,
+        "name": "Aluminum",
+        "category": "Finishing",
+        "description": "Aluminum is a lightweight metal commonly used for windows, doors, roofing components, frames, and other building applications.",
+        "uses": [
+            "Window frames",
+            "Door frames",
+            "Roofing components",
+            "Interior fittings"
+        ],
+        "properties": [
+            "Lightweight",
+            "Resistant to corrosion",
+            "Can be formed into different shapes",
+            "Good surface appearance"
+        ],
+        "advantages": [
+            "Lightweight",
+            "Low maintenance",
+            "Resistant to rust",
+            "Available in different finishes"
+        ],
+        "considerations": [
+            "Can be more expensive than some alternatives",
+            "Can be damaged by impact",
+            "Different grades have different properties"
+        ]
+    },
+
+    {
+        "id": 16,
+        "name": "Natural Stone",
+        "category": "Finishing",
+        "description": "Natural stone is a durable building material used for walls, floors, landscaping, cladding, and decorative features.",
+        "uses": [
+            "Flooring",
+            "Wall cladding",
+            "Landscaping",
+            "Decorative features"
+        ],
+        "properties": [
+            "Natural variation in color and texture",
+            "Generally durable",
+            "Heavy material",
+            "Different stones have different properties"
+        ],
+        "advantages": [
+            "Long-lasting",
+            "Natural appearance",
+            "Can add value and character to a building",
+            "Available in many varieties"
+        ],
+        "considerations": [
+            "Can be expensive",
+            "Heavy to transport",
+            "Some stones require sealing or special maintenance"
+        ]
+    },
+
+    {
+        "id": 17,
+        "name": "Insulation",
+        "category": "Building Performance",
+        "description": "Insulation materials are used to reduce heat transfer and can help improve the comfort and energy performance of a building.",
+        "uses": [
+            "Roof insulation",
+            "Wall insulation",
+            "Ceiling insulation",
+            "Building envelope improvements"
+        ],
+        "properties": [
+            "Reduces heat transfer",
+            "Available in different forms",
+            "Different materials have different thermal properties",
+            "Can be installed in walls, ceilings, or roofs"
+        ],
+        "advantages": [
+            "Can improve indoor comfort",
+            "May reduce energy use",
+            "Available in several forms",
+            "Useful in different parts of a building"
+        ],
+        "considerations": [
+            "Correct installation is important",
+            "The appropriate material depends on the application",
+            "Moisture management should be considered"
+        ]
+    },
+
+    {
+        "id": 18,
+        "name": "Waterproofing Materials",
+        "category": "Building Protection",
+        "description": "Waterproofing materials are used to reduce the movement of water into areas of a building that need protection from moisture.",
+        "uses": [
+            "Roof waterproofing",
+            "Bathrooms",
+            "Foundations",
+            "Balconies and terraces"
+        ],
+        "properties": [
+            "Designed to resist water penetration",
+            "Available in different forms",
+            "Can be liquid or sheet-based",
+            "Different products suit different applications"
+        ],
+        "advantages": [
+            "Helps protect buildings from moisture",
+            "Can reduce water-related damage",
+            "Useful in wet areas",
+            "Many product options are available"
+        ],
+        "considerations": [
+            "Surface preparation is important",
+            "Application must follow product instructions",
+            "The correct system should be selected for the location"
+        ]
+    }
+]

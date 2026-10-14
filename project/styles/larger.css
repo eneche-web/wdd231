@@ -1,0 +1,168 @@
+
+
+@media screen and (min-width: 1000px) {
+
+    /* ==============================
+       Header and Navigation
+       ============================== */
+
+    .site-header {
+        padding: 1.2rem;
+    }
+
+    .header-container {
+        max-width: 1200px;
+    }
+
+    #menu-button {
+        display: none;
+    }
+
+    .primary-navigation {
+        display: block;
+        margin: 0 auto;
+        max-width: 1200px;
+    }
+
+    .primary-navigation ul {
+        display: flex;
+        justify-content: flex-end;
+        gap: 0.5rem;
+    }
+
+    .primary-navigation li {
+        border-top: none;
+    }
+
+    .primary-navigation a {
+        padding: 0.7rem 1rem;
+        border-radius: 4px;
+    }
+
+    /* ==============================
+       General Layout
+       ============================== */
+
+    .container {
+        width: 90%;
+        max-width: 1200px;
+    }
+
+    section {
+        padding: 4rem 0;
+    }
+
+    /* ==============================
+       Hero
+       ============================== */
+
+    .hero {
+        padding: 5rem 2rem;
+    }
+
+    .hero h2 {
+        font-size: 3rem;
+    }
+
+    /* ==============================
+       Material Cards
+       ============================== */
+
+    .material-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+    }
+
+    .material-card {
+        padding: 1.4rem;
+    }
+
+    .material-card:hover {
+        border-color: #d89b2b;
+    }
+
+    /* ==============================
+       Categories
+       ============================== */
+
+    .category-grid {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1.2rem;
+    }
+
+    /* ==============================
+       Materials Page
+       ============================== */
+
+    .page-intro {
+        padding: 4rem 2rem;
+    }
+
+    .page-intro h2 {
+        font-size: 2.7rem;
+    }
+
+    .material-tools {
+        max-width: 1200px;
+        grid-template-columns: 2fr 1fr auto;
+        align-items: end;
+        padding: 1.5rem;
+    }
+
+    .favorites-box {
+        grid-column: auto;
+    }
+
+    .results-heading {
+        max-width: 1200px;
+        padding: 0;
+    }
+
+    /* ==============================
+       Dialog
+       ============================== */
+
+    #material-dialog {
+        max-width: 750px;
+    }
+
+    .dialog-content {
+        padding: 2rem;
+    }
+
+    /* ==============================
+       Benefits
+       ============================== */
+
+    .benefits-list {
+        max-width: 850px;
+    }
+
+    /* ==============================
+       Footer
+       ============================== */
+
+    .footer-container {
+        max-width: 1200px;
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        gap: 2rem;
+    }
+
+    .footer-bottom {
+        grid-column: 1 / -1;
+    }
+
+
+.contact-layout {
+    grid-template-columns: 2fr 1fr;
+    align-items: start;
+    gap: 2rem;
+}
+
+.contact-form-section,
+.contact-information {
+    padding: 2rem;
+}
+
+}

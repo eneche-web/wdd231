@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Explore common construction materials, their uses, properties, advantages, and important considerations with the BuildWise materials guide.">
+        <meta name="author" content="Eneche John">
+        <meta property="og:title" content="BuildWise | Materials Guide">
+        <meta property="og:description" content="Explore common construction materials and learn about their uses, properties, advantages, and considerations.">
+        <meta property="og:type" content="website">      
+        <title>BuildWise | Materials Guide</title>
+        <link rel="stylesheet" href="styles/small.css">
+        <link rel="stylesheet" href="styles/larger.css">
+        <script src="scripts/materials.js" defer></script>
+    </head>
+    <body>
+        <header class="site-header">
+            <div class="header-container">
+                <a class="logo-main" href="index.html">
+                    <span class="logo-main">BuildWise</span>
+                    <span class="logo-tagline">Construction Materials Guide</span>
+                </a>
+                <button id="menu-button" class="menu-button" aria-label="Open navigation menu" aria-expanded="false">≡</button>
+                <nav id="primary-navigation" class="navigation">
+                    <a class="active" href="index.html">Home</a>
+                    <a href="materials.html">Materials</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section class="page-intro">
+                <div class="section-container">
+                    <p class="section-label">
+                        BUILDWISE GUIDE
+                    </p>
+                    <h1>
+                        Construction Materials
+                    </h1>
+                    <p>
+                        Explore common materials used in construction and learn about their uses, properties, advantages, and important considerations.
+                    </p>
+                </div>
+            </section>
+            <section class="materials-tools section-container">
+                <div class="search-box">
+                    <label for="material-search">
+                        Search materials
+                    </label>
+                    <input type="search" id="material-search" name="material-search" placeholder="For example, cement or steel">
+                </div>
+                <div class="filter-box">
+                    <label for="category-filter">
+                        Filter by category
+                    </label>
+                    <select id="category-filter" name="category-filter">
+                        <option value="all">
+                            All categories
+                        </option>
+                    </select>
+                </div>
+                <div class="favorites-box">
+                    <button id="favorites-button" class="secondary-button">
+                        Show Favorites
+                    </button>
+                    <button id="show-all-button" class="secondary-button">
+                        Show All
+                    </button>
+                </div>
+            </section>
+            <section class="results-section section-container">
+                <div class="results-heading">
+                    <div>
+                        <p class="section-label">
+                            MATERIAL LIBRARY
+                        </p>
+                        <h2>
+                            Explore the Materials
+                        </h2>
+                    </div>
+                    <p id="material-count" aria-live="polite">
+                            Loading materials...
+                    </p>
+                
+                </div>
+                <!--JavaScript inserts material card here-->
+                <div id="materials-container" class="material-grid" aria-live="polite">
+                    <p class="loading-message">
+                        Loading materials...
+                    </p>
+                </div>
+            </section>
+            <dialog id="material-dialog">
+                <div class="dialog-content">
+                    <button id="close-dialog" class="close-dialog" aria-label="Close material details">
+                    &times;
+                    </button>
+                    <div id="dialog-details">
+                    <!--JavaScript adds material information here-->
+                    </div>
+                </div>
+            </dialog>
+            <section class="materials-note">
+                <div class="section-container">
+                    <h2>
+                        A helpful starting point
+                    </h2>
+                    <p>
+                        All the information in this guide is intended to provide general educational information about construction materials.
+                        Building requirments can vary depending on location, design, climate, and the type of project.
+                    </p>
+                    <p>
+                        It is paramount to always seek professional advice from qualified construction professionals as it pertains to structural or
+                        safety-related decisions.
+                    </p>
+                </div>
+            </section>
+        </main>
+        <footer class="site-footer">
+            <div class="footer-container">
+                <div>
+                    <h2>BuildWise</h2>
+                    <p>
+                        Construction Materials Guide
+                    </p>
+                </div>
+                <div>
+                    <h2>Quick Links</h2>
+                        <a href="index.html">Home</a>
+                        <a href="materials.html">Materials</a>
+                        <a href="about.html">About</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </div>
+                <div>
+                    <h3>Project</h3>
+                    <P>WDD231 Final Project</P>
+                    <p>Created by Eneche John</p>
+                </div>
+                
+            </div>
+            <div class="footer-bottom">
+                <p>
+                        &copy; <span id="current-year"></span>
+                        BuildWise
+                </p>
+                <p>
+                        Last Modified: <span id="last-modified"></span>
+                </p>
+            </div>
+
+        </footer>
+    </body>
+</html>
